@@ -1,0 +1,13 @@
+WeatherAPITest\Connection\ConnectionHttp.class
+WeatherAPITest\Services\WeatherTestService.class
+WeatherAPITest\model\weather.class
+WeatherAPITest\Controller\WeatherTestServiceAPIController.class
+WeatherAPITest\model\Stats.class
+WeatherAPITest\WeatherCache\WeatherCache.class
+WeatherAPITest\model\Main.class
+WeatherAPITest\WeatherAPIApplication.class
+WeatherAPITest\model\Wind.class
+WeatherAPITest\model\Coord.class
+WeatherAPITest\Connection\ConnectionHttpInterface.class
+WeatherAPITest\WeatherCache\WeatherCacheInterface.class
+WeatherAPITest\Services\WeatherTestServiceInteface.class

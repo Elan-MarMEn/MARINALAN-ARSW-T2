@@ -1,0 +1,39 @@
+.conatiner-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+.conatiner-grid input{
+  height: 30px;
+  width: 200px;
+  margin: 50px; 
+}
+.conatiner-grid nav{
+    height: 400px;
+    width: 600px;
+    background-color: rgb(202, 202, 202);
+}
+
+.button-city{
+    position: relative;
+    left: -400px;
+    top: 30px;
+}
+
+.conatiner-grid button{
+    height: 50px;
+    width: 100px;
+    background-color: rgba(42, 196, 4, 0.603);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color:black;
+    transition: all 0.5s;
+}
+
+.conatiner-grid button:hover{
+    cursor: pointer;
+    background-color: rgb(73, 35, 35);
+    color: white;
+}
