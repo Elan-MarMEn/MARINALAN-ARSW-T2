@@ -2,7 +2,7 @@ api= (function(){
     function getWeatherByCity(city,callback){
         $.ajax ({
             dataType: "json",
-            url: "http://localhost:8080/weather/"+city,
+            url: "https://marin-arsw-t2.herokuapp.com/weather/"+city,
             success: function(data){
             callback(data)
             }
@@ -11,7 +11,6 @@ api= (function(){
 
 return{
     getWeatherByCity:getWeatherByCity
-   
 }
 
 
